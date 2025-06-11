@@ -9,9 +9,6 @@ var password = 123
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-
-
-
 app.post("/login",function(req,res)
 {
     console.log(req.body.username)
