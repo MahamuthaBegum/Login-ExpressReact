@@ -66,7 +66,6 @@ return (
       <h1 className='p-10 text-gray-300'>Questions? Call 000-800-919-1743 (Toll-Free)</h1>
       <div className='p-4 flex flex-wrap underline gap-16 text-gray-300'>
         <div className="flex flex-wrap w-full">
-          {/* On mobile, show two items per row */}
           <div className="flex flex-row flex-wrap w-full">
             <h1 className="w-1/2 sm:w-1/4 min-w-max">FAQ</h1>
             <h2 className="w-1/2 sm:w-1/4 min-w-max">Help Centre</h2>
